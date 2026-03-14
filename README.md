@@ -4,7 +4,7 @@ Tuition Solution is a C# based desktop application developed as a group project 
 
 ## Project Overview
 
-This project was built to simplify the management of tuition-related operations such as user registration, login, profile management, teacher-student allocation, and account approval. It is designed as a role-based system where each type of user has different access and features.
+This project simplifies tuition management by providing features such as user registration, login authentication, profile management, teacher–student allocation, and admin approval. The system follows a **role-based architecture** where different users have different permissions.
 
 ## Technologies Used
 
@@ -17,8 +17,8 @@ This project was built to simplify the management of tuition-related operations 
 
 - User registration system
 - Secure login system
-- Role-based access for Admin, Teacher, and Student
-- Admin approval for newly registered users
+- Role-based access (Admin, Teacher, Student)
+- Admin approval for new accounts
 - Student and teacher profile management
 - Tuition allocation system
 - Password change option
@@ -33,39 +33,60 @@ This project was built to simplify the management of tuition-related operations 
 - View active students and teachers
 - Manage user information
 - Reactivate devices
-- Delete users if needed
+- Delete users if necessary
 
 ### Teacher
 - View assigned tuition allocations
 - Update profile information
 - Change password
-- Search student-related information
+- Search student information
 - Delete account
 
 ### Student
 - Update profile information
-- View tuition-related details
-- Search for teacher/student allocation information
+- View tuition details
+- Search teacher allocation information
 - Change password
 - Delete account
 
 ## Project Structure
 
 - `Login.cs` – User login system
-- `registration.cs` – New account registration
-- `Admin_Dashboard.cs` – Admin panel
+- `registration.cs` – Account registration
+- `Admin_Dashboard.cs` – Admin dashboard
 - `teacher_desh.cs` – Teacher dashboard
 - `student_dash.cs` – Student dashboard
 - `Allocation.cs` – Allocation management
 - `Forgot.cs` – Password recovery with OTP
 - `Change_Pass.cs` – Password changing feature
-- `databse.cs` – Database connection and query execution
-- `otp_and_code.cs` – OTP and unique ID generation
+- `databse.cs` – Database connection
+- `otp_and_code.cs` – OTP and ID generation
 
 ## Database
 
-This project uses **SQL Server** as the backend database.  
-The connection string is currently configured in:
+This project uses **SQL Server** as the backend database.
 
-```csharp
-databse.cs
+Database connection is configured in:
+
+
+## Project Report
+
+Full documentation of the system is available here:
+
+[Download Project Report](Tuition_Solution_Project_Report.pdf)
+
+## Team Members
+
+- Sajid Mohammad Talukdar
+- Argho Dey
+- Kazi Samia Mostofa
+- Mohammad Saib
+
+## Notes
+
+- This project was developed as part of an **Object Oriented Programming 2 (OOP2)** course project.
+- Developed using **C# Windows Forms with SQL Server integration**.
+
+## License
+
+This project is for **educational purposes only**.
